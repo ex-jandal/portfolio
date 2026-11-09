@@ -12,7 +12,8 @@
     "links": "Links",
     "wip": "WIP",
     "source": "Source",
-    "toggleLang": "Switch language"
+    "toggleLang": "Switch language",
+    "env": "Env"
   },
   "profile": {
     "name": "abu_jandal",
@@ -27,13 +28,11 @@
     "Linux",
     "Git",
     "Emacs",
-    "NixOS",
+    "Nix",
     "Python",
     "SQL",
     "Laravel (a bit)",
-    "tmux",
-    "niri",
-    "keyboard-driven"
+    "tmux"
   ],
   "projects": [
     {
@@ -143,5 +142,15 @@
       "icon": "matrix",
       "text": "@ex-jandal:matrix.org"
     }
+  ],
+  "env": [
+    "NixOS",
+    "niri",
+    "Noctalia",
+    "Emacs",
+    "foot",
+    "fish",
+    "pi-agent",
+    "keyboard-driven"
   ]
 }

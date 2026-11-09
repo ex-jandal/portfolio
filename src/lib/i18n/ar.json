@@ -12,7 +12,8 @@
     "links": "روابط",
     "wip": "قيد التطوير",
     "source": "المصدر",
-    "toggleLang": "تبديل اللغة"
+    "toggleLang": "تبديل اللغة",
+    "env": "البيئة"
   },
   "profile": {
     "name": "ابو جندل",
@@ -27,13 +28,11 @@
     "Linux",
     "Git",
     "Emacs",
-    "NixOS",
+    "Nix",
     "Python",
     "SQL",
     "Laravel (قليلاً)",
-    "tmux",
-    "niri",
-    "keyboard-driven"
+    "tmux"
   ],
   "projects": [
     {
@@ -143,5 +142,15 @@
       "icon": "matrix",
       "text": "@ex-jandal:matrix.org"
     }
+  ],
+  "env": [
+    "NixOS",
+    "niri",
+    "Noctalia",
+    "Emacs",
+    "foot",
+    "fish",
+    "pi-agent",
+    "keyboard-driven"
   ]
 }

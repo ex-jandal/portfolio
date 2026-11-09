@@ -22,7 +22,8 @@
         const s = skill.toLowerCase();
         if (s.includes("svelte")) return "\ue697";
         if (s.includes("tailwind")) return "\udb84\udfff";
-        if (s.includes("bash")) return "\ue795";
+        if (s.includes("bash")) return "\ue760";
+        if (s.includes("fish")) return "\uee41";
         if (s.includes("linux")) return "\uf17c";
         if (s.includes("git")) return "\ue702";
         if (s.includes("emacs")) return "\ue632";
@@ -32,7 +33,10 @@
         if (s.includes("laravel")) return "\ue73f";
         if (s.includes("tmux")) return "\uebc8";
         if (s.includes("niri")) return "\uf2d0";
+        if (s.includes("noctalia")) return "\uf186";
+        if (s.includes("foot")) return "\uf489";
         if (s.includes("keyboard")) return "\uf11c";
+        if (s.includes("pi-agent")) return "\ue22c";
         return "\uf121";
     }
 </script>
@@ -49,6 +53,18 @@
             <li class="skill">
                 <span class="nf" aria-hidden="true">{skillIcon(skill)}</span>
                 <bdi>{skill}</bdi>
+            </li>
+        {/each}
+    </ul>
+</section>
+
+<section aria-labelledby="env-heading">
+    <h2 id="env-heading">{$t.ui.env}</h2>
+    <ul class="plain skills-list">
+        {#each $t.env as item}
+            <li class="skill">
+                <span class="nf" aria-hidden="true">{skillIcon(item)}</span>
+                <bdi>{item}</bdi>
             </li>
         {/each}
     </ul>
