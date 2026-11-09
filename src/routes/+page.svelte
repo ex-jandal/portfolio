@@ -43,7 +43,7 @@
 
 <section aria-labelledby="about-heading">
     <h2 id="about-heading">{$t.ui.about}</h2>
-    <p>{$t.profile.bio}</p>
+    <p class="bio">{$t.profile.bio}</p>
 </section>
 
 <section aria-labelledby="skills-heading">
