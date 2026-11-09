@@ -1,0 +1,7 @@
+{
+  "name": "port",
+  "compatibility_date": "2026-03-01",
+  "assets": {
+    "directory": "./build"
+  }
+}

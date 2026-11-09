@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "abu_jandal — Linux / Web / Emacs",
+    "description": "ابو جندل — مطوّر لينكس وويب ومحب لـ Emacs. طالب أمن سيبراني يركّز على الأنظمة منخفضة المستوى ولينكس والبرمجيات مفتوحة المصدر."
+  },
+  "ui": {
+    "skipToContent": "تخطَّ إلى المحتوى",
+    "language": "اللغة",
+    "about": "نبذة",
+    "skills": "المهارات",
+    "projects": "المشاريع",
+    "links": "روابط",
+    "wip": "قيد التطوير",
+    "source": "المصدر",
+    "toggleLang": "تبديل اللغة"
+  },
+  "profile": {
+    "name": "ابو جندل",
+    "handle": "abu_jandal",
+    "role": "linux / web developer / emacs enjoyer",
+    "bio": "أنا طالب في السنة الثالثة في الأمن السيبراني، أركّز على الأنظمة منخفضة المستوى، ولينكس، والبرمجيات مفتوحة المصدر. أنظّم تعلّمي بطريقة PARA داخل Emacs، وأؤمن ببناء الأشياء لفهمها حقًا — سواء كان ذلك مخصّص ذاكرة، أو صدَفة (shell)، أو مُحمِّل ELF. أستمتع بفهم كيفية عمل الأشياء تحت الغطاء، من نداءات النظام إلى إدارة الذاكرة، وتطبيق هذه المعرفة في مشاريع عملية. أستخدم NixOS كنظامي الأساسي مع niri وإعداد يعتمد على لوحة المفاتيح."
+  },
+  "skills": [
+    "Svelte",
+    "Tailwind",
+    "Bash",
+    "Linux",
+    "Git",
+    "Emacs",
+    "NixOS",
+    "Python",
+    "SQL",
+    "Laravel (قليلاً)",
+    "tmux",
+    "niri",
+    "keyboard-driven"
+  ],
+  "projects": [
+    {
+      "name": "mimo-manager",
+      "desc": "مدير لأنواع MIME والتطبيقات الافتراضية على لينكس، يركّز على الاستخدام بلوحة المفاتيح.",
+      "tech": [
+        "Rust",
+        "Linux"
+      ],
+      "url": "https://github.com/ex-jandal/mimo-manager",
+      "wip": false
+    },
+    {
+      "name": "oh-my-crypto",
+      "desc": "أداة سطح مكتب بواجهة رسومية (Zig 0.16.0 + Qt 6) لتشفير وفك تشفير النصوص بسبع خوارزميات تعمية كلاسيكية.",
+      "tech": [
+        "Zig",
+        "Qt 6",
+        "libqt6zig"
+      ],
+      "url": "https://github.com/ex-jandal/oh-my-crypto",
+      "wip": false
+    },
+    {
+      "name": "proxy-security-guard",
+      "desc": "خادم وكيل (proxy) عالي الأداء ويركّز على الأمان، مبني بـ Rust.",
+      "tech": [
+        "Rust"
+      ],
+      "url": "https://github.com/ex-jandal/proxy-security-guard",
+      "wip": false
+    },
+    {
+      "name": "radium-shell-rs",
+      "desc": "مدير أوامر وبيئة تنفيذ تعمل في الطرفية، مبنية بـ Rust.",
+      "tech": [
+        "Rust"
+      ],
+      "url": "https://github.com/ex-jandal/radium-shell-rs",
+      "wip": false
+    },
+    {
+      "name": "pvault",
+      "desc": "مدير كلمات مرور يعمل في الطرفية مع التشفير والبحث والتكامل مع الحافظة (قيد التطوير).",
+      "tech": [
+        "Zig"
+      ],
+      "url": "https://github.com/ex-jandal/pvault",
+      "wip": true
+    },
+    {
+      "name": "just-flake",
+      "desc": "Flake نظيف ومقسّم لـ NixOS وHome-Manager لجهاز محمول بإعداد Niri + Noctalia (منقول من Arch).",
+      "tech": [
+        "Nix",
+        "NixOS",
+        "Lua"
+      ],
+      "url": "https://github.com/ex-jandal/just-flake",
+      "wip": false
+    },
+    {
+      "name": "android-emu-selector",
+      "desc": "سكربت بايثون خفيف لاختيار وتشغيل أجهزة Android الافتراضية (AVD) من الطرفية بواجهة تفاعلية.",
+      "tech": [
+        "Python"
+      ],
+      "url": "https://github.com/ex-jandal/android-emu-selector",
+      "wip": false
+    },
+    {
+      "name": "PG-chatting-app",
+      "desc": "تطبيق دردشة «Pretty Good» مبني بـ Laravel 12 وSvelte.",
+      "tech": [
+        "Svelte",
+        "Laravel 12"
+      ],
+      "url": "https://github.com/ex-jandal/PG-chatting-app",
+      "wip": false
+    },
+    {
+      "name": "doc-gen",
+      "desc": "أداة لتحويل Markdown/LaTeX/HTML إلى PDF/ODT/DOCX مع سمات ووضع فاتح/داكن.",
+      "tech": [
+        "Python"
+      ],
+      "url": "https://github.com/ex-jandal/doc-gen",
+      "wip": false
+    }
+  ],
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/ex-jandal",
+      "icon": "github",
+      "text": "ex-jandal"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@ex.jandal",
+      "icon": "youtube",
+      "text": "@ex.jandal"
+    },
+    {
+      "label": "Matrix",
+      "url": "https://matrix.to/#/@ex-jandal:matrix.org",
+      "icon": "matrix",
+      "text": "@ex-jandal:matrix.org"
+    }
+  ]
+}

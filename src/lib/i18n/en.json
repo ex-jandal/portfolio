@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "abu_jandal — Linux / Web / Emacs",
+    "description": "abu_jandal — Linux / web developer / Emacs enjoyer. Cybersecurity student focused on low-level systems, Linux, and open-source software."
+  },
+  "ui": {
+    "skipToContent": "Skip to content",
+    "language": "Language",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "links": "Links",
+    "wip": "WIP",
+    "source": "Source",
+    "toggleLang": "Switch language"
+  },
+  "profile": {
+    "name": "abu_jandal",
+    "handle": "abu_jandal",
+    "role": "linux / web developer / emacs enjoyer",
+    "bio": "I'm a 3rd-year cybersecurity student focused on low-level systems, Linux, and open‑source software. I organize my learning with the PARA method in Emacs and believe in building things to truly understand them — whether it's a memory allocator, a shell, or an ELF loader. I enjoy learning how things work under the hood, from syscalls to memory management, and applying that knowledge in practical projects. I use NixOS as my main driver with niri and a keyboard-driven setup."
+  },
+  "skills": [
+    "Svelte",
+    "Tailwind",
+    "Bash",
+    "Linux",
+    "Git",
+    "Emacs",
+    "NixOS",
+    "Python",
+    "SQL",
+    "Laravel (a bit)",
+    "tmux",
+    "niri",
+    "keyboard-driven"
+  ],
+  "projects": [
+    {
+      "name": "mimo-manager",
+      "desc": "A keyboard-centric MIME type and default-application manager for Linux.",
+      "tech": [
+        "Rust",
+        "Linux"
+      ],
+      "url": "https://github.com/ex-jandal/mimo-manager",
+      "wip": false
+    },
+    {
+      "name": "oh-my-crypto",
+      "desc": "A desktop GUI crypto utility (Zig 0.16.0 + Qt 6) to encrypt/decrypt text with seven classical ciphers.",
+      "tech": [
+        "Zig",
+        "Qt 6",
+        "libqt6zig"
+      ],
+      "url": "https://github.com/ex-jandal/oh-my-crypto",
+      "wip": false
+    },
+    {
+      "name": "proxy-security-guard",
+      "desc": "A high-performance, security-focused proxy server built in Rust.",
+      "tech": [
+        "Rust"
+      ],
+      "url": "https://github.com/ex-jandal/proxy-security-guard",
+      "wip": false
+    },
+    {
+      "name": "radium-shell-rs",
+      "desc": "A terminal-based command manager and execution environment built in Rust.",
+      "tech": [
+        "Rust"
+      ],
+      "url": "https://github.com/ex-jandal/radium-shell-rs",
+      "wip": false
+    },
+    {
+      "name": "pvault",
+      "desc": "A terminal-based password manager with encryption, search, and clipboard integration (work in progress).",
+      "tech": [
+        "Zig"
+      ],
+      "url": "https://github.com/ex-jandal/pvault",
+      "wip": true
+    },
+    {
+      "name": "just-flake",
+      "desc": "A clean, modular NixOS + Home-Manager flake for a Niri + Noctalia laptop (migrated from Arch).",
+      "tech": [
+        "Nix",
+        "NixOS",
+        "Lua"
+      ],
+      "url": "https://github.com/ex-jandal/just-flake",
+      "wip": false
+    },
+    {
+      "name": "android-emu-selector",
+      "desc": "A lightweight Python script to select and launch Android Virtual Devices (AVDs) from the terminal with an interactive UI.",
+      "tech": [
+        "Python"
+      ],
+      "url": "https://github.com/ex-jandal/android-emu-selector",
+      "wip": false
+    },
+    {
+      "name": "PG-chatting-app",
+      "desc": "\"Pretty Good Chatting App\" built with Laravel 12 and Svelte.",
+      "tech": [
+        "Svelte",
+        "Laravel 12"
+      ],
+      "url": "https://github.com/ex-jandal/PG-chatting-app",
+      "wip": false
+    },
+    {
+      "name": "doc-gen",
+      "desc": "A utility to convert Markdown/LaTeX/HTML to PDF/ODT/DOCX with themes and light/dark modes.",
+      "tech": [
+        "Python"
+      ],
+      "url": "https://github.com/ex-jandal/doc-gen",
+      "wip": false
+    }
+  ],
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/ex-jandal",
+      "icon": "github",
+      "text": "ex-jandal"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@ex.jandal",
+      "icon": "youtube",
+      "text": "@ex.jandal"
+    },
+    {
+      "label": "Matrix",
+      "url": "https://matrix.to/#/@ex-jandal:matrix.org",
+      "icon": "matrix",
+      "text": "@ex-jandal:matrix.org"
+    }
+  ]
+}
