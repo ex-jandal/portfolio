@@ -28,7 +28,7 @@
 <div class="page" {dir}>
 	<header class="site-header">
 		<div class="brand">
-			<h1><bdi>{$t.profile.name}</bdi>{#if $t.profile.name !== $t.profile.handle} <span style="color:var(--muted)">/</span> <bdi>{$t.profile.handle}</bdi>{/if}</h1>
+			<h1><bdi>ابو جندل</bdi> <span style="color:var(--muted)">/</span> <bdi>abu_jandal</bdi></h1>
 			<p class="role"><bdi>{$t.profile.role}</bdi></p>
 		</div>
 		<div class="lang-toggle" role="group" aria-label={$t.ui.toggleLang}>
