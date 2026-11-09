@@ -20,7 +20,7 @@
 	--font-mono-latin: "JetBrains Mono", ui-monospace, "Cascadia Mono", "Source Code Pro", Menlo, Consolas, monospace;
 	/* Arabic-capable monospace: Kawkab Mono (OFL-1.1, aiaf/kawkab-mono) self-hosted; has Arabic glyphs. */
 	--font-mono-arabic: "Kawkab Mono", "DejaVu Sans Mono", monospace;
-	--font-mono: var(--font-mono-latin), var(--font-mono-arabic), monospace;
+	--font-mono: "JetBrains Mono", "Kawkab Mono", monospace;
 
 	--maxw: 78ch;
 	--pad: 1rem;
@@ -48,6 +48,7 @@
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
+	unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+0660-0669, U+061F, U+060C, U+061B;
 }
 @font-face {
 	font-family: "Kawkab Mono";
@@ -55,6 +56,7 @@
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
+	unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+0660-0669, U+061F, U+060C, U+061B;
 }
 @font-face {
 	font-family: "Symbols Nerd Font Mono";
