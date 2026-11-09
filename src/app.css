@@ -322,3 +322,10 @@ footer.modeline bdi { color: var(--fg); }
 	text-align: justify;
 	hyphens: auto;
 }
+
+.skill .nf {
+	color: var(--skill-color, var(--cyan));
+}
+.skill {
+	border-color: color-mix(in srgb, var(--skill-color, var(--border)) 55%, var(--border));
+}

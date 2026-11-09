@@ -41,6 +41,29 @@
         if (s.includes("pi-agent")) return "\ue22c";
         return "\uf121";
     }
+    function skillColor(skill: string): string {
+        const s = skill.toLowerCase();
+        if (s.includes("zig")) return "var(--yellow)";
+        if (s.includes("git")) return "var(--red)";
+        if (s.includes("emacs")) return "var(--magenta)";
+        if (s.includes("svelte")) return "var(--orange)";
+        if (s.includes("tailwind")) return "var(--cyan)";
+        if (s.includes("bash")) return "var(--green)";
+        if (s.includes("fish")) return "var(--green)";
+        if (s.includes("linux")) return "var(--yellow)";
+        if (s.includes("nixos")) return "var(--blue)";
+        if (s.includes("python")) return "var(--blue)";
+        if (s.includes("c_lang") || s === "c") return "var(--blue)";
+        if (s.includes("sql")) return "var(--cyan)";
+        if (s.includes("laravel")) return "var(--red)";
+        if (s.includes("tmux")) return "var(--green)";
+        if (s.includes("niri")) return "var(--orange)";
+        if (s.includes("noctalia")) return "var(--magenta)";
+        if (s.includes("foot")) return "var(--green)";
+        if (s.includes("keyboard")) return "var(--orange)";
+        if (s.includes("pi-agent") || s.includes("pi agent")) return "var(--magenta)";
+        return "var(--fg)";
+    }
 </script>
 
 <section aria-labelledby="about-heading">
@@ -52,7 +75,7 @@
     <h2 id="skills-heading">{$t.ui.skills}</h2>
     <ul class="plain skills-list">
         {#each $t.skills as skill}
-            <li class="skill">
+            <li class="skill" style="--skill-color: {skillColor(skill)}">
                 <span class="nf" aria-hidden="true">{skillIcon(skill)}</span>
                 <bdi>{skill}</bdi>
             </li>
@@ -64,7 +87,7 @@
     <h2 id="env-heading">{$t.ui.env}</h2>
     <ul class="plain skills-list">
         {#each $t.env as item}
-            <li class="skill">
+            <li class="skill" style="--skill-color: {skillColor(item)}">
                 <span class="nf" aria-hidden="true">{skillIcon(item)}</span>
                 <bdi>{item}</bdi>
             </li>
