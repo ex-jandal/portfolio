@@ -126,7 +126,9 @@
       "name": "qd-knowledge-manager",
       "desc": "محرر Markdown وأداة لإدارة المعرفة لالتقاط الأفكار وتنظيم الملاحظات وتوليد ملخصات موجزة من فيديوهات YouTube باستخدام الذكاء الاصطناعي.",
       "tech": [
-        "JavaScript"
+        "C#",
+        "Blazor",
+        ".NET 10"
       ],
       "url": "https://github.com/ex-jandal/qd-knowledge-manager",
       "wip": false
