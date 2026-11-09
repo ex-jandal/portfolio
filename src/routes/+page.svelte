@@ -29,6 +29,8 @@
         if (s.includes("emacs")) return "\ue632";
         if (s.includes("nixos")) return "\uf313";
         if (s.includes("python")) return "\ue73c";
+        if (s.includes("zig")) return "\ue6a9";
+        if (s.includes("C Programming")) return "\ue771";
         if (s.includes("sql")) return "\ue706";
         if (s.includes("laravel")) return "\ue73f";
         if (s.includes("tmux")) return "\uebc8";
