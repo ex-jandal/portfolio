@@ -121,6 +121,15 @@
       ],
       "url": "https://github.com/ex-jandal/doc-gen",
       "wip": false
+    },
+    {
+      "name": "qd-knowledge-manager",
+      "desc": "A Markdown editor and knowledge management tool to capture ideas, manage notes, and generate concise summaries from YouTube videos using AI.",
+      "tech": [
+        "JavaScript"
+      ],
+      "url": "https://github.com/ex-jandal/qd-knowledge-manager",
+      "wip": false
     }
   ],
   "links": [
