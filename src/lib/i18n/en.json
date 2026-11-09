@@ -24,6 +24,8 @@
   "skills": [
     "Svelte",
     "Tailwind",
+    "C_lang",
+    "Zig",
     "Bash",
     "Linux",
     "Git",
@@ -32,8 +34,7 @@
     "Python",
     "SQL",
     "Laravel (a bit)",
-    "tmux",
-    "Zig"
+    "tmux"
   ],
   "projects": [
     {
