@@ -11,6 +11,24 @@
 			default: return '\uf0c1';
 		}
 	}
+
+	function skillIcon(skill: string): string {
+		const s = skill.toLowerCase();
+		if (s.includes('svelte')) return '\ue697';
+		if (s.includes('tailwind')) return '\ue6c0';
+		if (s.includes('bash')) return '\ue795';
+		if (s.includes('linux')) return '\uf17c';
+		if (s.includes('git')) return '\ue702';
+		if (s.includes('emacs')) return '\ue632';
+		if (s.includes('nixos')) return '\uf313';
+		if (s.includes('python')) return '\ue73c';
+		if (s.includes('sql')) return '\ue706';
+		if (s.includes('laravel')) return '\ue73f';
+		if (s.includes('tmux')) return '\uebc8';
+		if (s.includes('niri')) return '\uf2d0';
+		if (s.includes('keyboard')) return '\uf11c';
+		return '\uf121';
+	}
 </script>
 
 <section aria-labelledby="about-heading">
@@ -22,7 +40,7 @@
 	<h2 id="skills-heading">{$t.ui.skills}</h2>
 	<ul class="plain skills-list">
 		{#each $t.skills as skill}
-			<li class="skill"><bdi>{skill}</bdi></li>
+			<li class="skill"><span class="nf" aria-hidden="true">{skillIcon(skill)}</span> <bdi>{skill}</bdi></li>
 		{/each}
 	</ul>
 </section>
