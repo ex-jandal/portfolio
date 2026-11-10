@@ -360,3 +360,69 @@ footer.modeline bdi { color: var(--fg); }
 	gap: 0.35rem 0.5rem;
 	margin-block: 0.25rem 0.35rem;
 }
+
+@media print {
+	:root {
+		--bg: #ffffff;
+		--surface: #ffffff;
+		--sel: #eeeeee;
+		--muted: #555555;
+		--fg: #000000;
+		--border: #888888;
+		--accent: #000000;
+		--link: #000000;
+		--link-hover: #000000;
+		--skill-color: #000000;
+	}
+
+	html, body {
+		background: #fff !important;
+		color: #000 !important;
+	}
+
+	.page {
+		max-inline-size: 100%;
+		padding: 0;
+		margin: 0;
+	}
+
+	a, a:hover, .links-list .text, .links-list a:hover .text, .alt-link, .alt-link:hover {
+		color: #000 !important;
+	}
+
+	.skip-link,
+	.lang-toggle {
+		display: none !important;
+	}
+
+	.skill, .project, .alt-link {
+		background: #fff !important;
+		border-color: #888 !important;
+	}
+
+	.nf, .skill .nf, .alt-link .nf {
+		color: #000 !important;
+	}
+
+	.wip {
+		background: #fff !important;
+		color: #000 !important;
+		border-color: #000 !important;
+	}
+
+	section, .project {
+		break-inside: avoid;
+		page-break-inside: avoid;
+	}
+
+	.project-links a[href]::after,
+	.links-list a[href]::after {
+		content: " (" attr(href) ")";
+		font-size: 0.85em;
+		color: #333;
+	}
+
+	footer.modeline {
+		border-block-start: 1px solid #888;
+	}
+}
