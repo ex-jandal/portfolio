@@ -394,7 +394,8 @@ footer.modeline bdi { color: var(--fg); }
 	}
 
 	.skip-link,
-	.lang-toggle {
+	.lang-toggle,
+	footer.modeline {
 		display: none !important;
 	}
 
