@@ -361,6 +361,16 @@ footer.modeline bdi { color: var(--fg); }
 	margin-block: 0.25rem 0.35rem;
 }
 
+@page {
+	margin: 15mm;
+	@bottom-center {
+		content: counter(page) " / " counter(pages);
+		color: #7D6658;
+		font-family: "JetBrains Mono", "Kawkab Mono", monospace;
+		font-size: 0.8rem;
+	}
+}
+
 @media print {
 	/* Melange light-inspired palette for print */
 	:root {
