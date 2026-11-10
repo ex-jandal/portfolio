@@ -362,22 +362,29 @@ footer.modeline bdi { color: var(--fg); }
 }
 
 @media print {
+	/* Melange light-inspired palette for print */
 	:root {
-		--bg: #ffffff;
-		--surface: #ffffff;
-		--sel: #eeeeee;
-		--muted: #555555;
-		--fg: #000000;
-		--border: #888888;
-		--accent: #000000;
-		--link: #000000;
-		--link-hover: #000000;
-		--skill-color: #000000;
+		--bg: #F4F0ED;
+		--surface: #E9E1DB;
+		--sel: #D9D3CE;
+		--muted: #7D6658;
+		--fg: #54433A;
+		--border: #A98A78;
+		--accent: #A06D00;
+		--link: #465AA4;
+		--link-hover: #3D6568;
+		--red: #BF0021;
+		--orange: #B65C2B;
+		--yellow: #A06D00;
+		--green: #3A684A;
+		--cyan: #3D6568;
+		--blue: #465AA4;
+		--magenta: #904180;
 	}
 
 	html, body {
-		background: #fff !important;
-		color: #000 !important;
+		background: var(--bg) !important;
+		color: var(--fg) !important;
 	}
 
 	.page {
@@ -386,43 +393,44 @@ footer.modeline bdi { color: var(--fg); }
 		margin: 0;
 	}
 
-	a, a:hover, .links-list .text, .links-list a:hover .text, .alt-link, .alt-link:hover {
-		color: #000 !important;
-	}
-
 	.skip-link,
 	.lang-toggle {
 		display: none !important;
 	}
 
-	.skill, .project, .alt-link {
-		background: #fff !important;
-		border-color: #888 !important;
+	/* Allow content to flow across pages; keep individual cards intact when possible */
+	section {
+		break-inside: auto;
+		page-break-inside: auto;
 	}
-
-	.nf, .skill .nf, .alt-link .nf {
-		color: #000 !important;
-	}
-
-	.wip {
-		background: #fff !important;
-		color: #000 !important;
-		border-color: #000 !important;
-	}
-
-	section, .project {
+	.project {
 		break-inside: avoid;
 		page-break-inside: avoid;
+	}
+	h2 {
+		break-after: avoid;
+		page-break-after: avoid;
 	}
 
 	.project-links a[href]::after,
 	.links-list a[href]::after {
 		content: " (" attr(href) ")";
 		font-size: 0.85em;
-		color: #333;
+		color: var(--muted);
+	}
+
+	.skill, .project, .alt-link {
+		background: var(--surface) !important;
+		border-color: var(--border) !important;
+	}
+
+	.wip {
+		background: var(--orange) !important;
+		color: #F4F0ED !important;
+		border-color: var(--orange) !important;
 	}
 
 	footer.modeline {
-		border-block-start: 1px solid #888;
+		border-block-start: 1px solid var(--border);
 	}
 }
