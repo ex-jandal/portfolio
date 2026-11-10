@@ -55,7 +55,8 @@
         "libqt6zig"
       ],
       "url": "https://github.com/ex-jandal/oh-my-crypto",
-      "wip": false
+      "wip": false,
+      "codeberg": "https://codeberg.org/ex-jandal/oh-my-crypto"
     },
     {
       "name": "proxy-security-guard",
@@ -64,7 +65,8 @@
         "Rust"
       ],
       "url": "https://github.com/ex-jandal/proxy-security-guard",
-      "wip": false
+      "wip": false,
+      "codeberg": "https://codeberg.org/ex-jandal/proxy-security-guard"
     },
     {
       "name": "radium-shell-rs",
@@ -73,7 +75,8 @@
         "Rust"
       ],
       "url": "https://github.com/ex-jandal/radium-shell-rs",
-      "wip": false
+      "wip": false,
+      "codeberg": "https://codeberg.org/ex-jandal/radium-shell-rs"
     },
     {
       "name": "pvault",
@@ -82,7 +85,8 @@
         "Zig"
       ],
       "url": "https://github.com/ex-jandal/pvault",
-      "wip": true
+      "wip": true,
+      "codeberg": "https://codeberg.org/ex-jandal/pvault"
     },
     {
       "name": "just-flake",
@@ -93,7 +97,8 @@
         "Lua"
       ],
       "url": "https://github.com/ex-jandal/just-flake",
-      "wip": false
+      "wip": false,
+      "codeberg": "https://codeberg.org/ex-jandal/just-flake"
     },
     {
       "name": "android-emu-selector",
@@ -102,7 +107,8 @@
         "Python"
       ],
       "url": "https://github.com/ex-jandal/android-emu-selector",
-      "wip": false
+      "wip": false,
+      "codeberg": "https://codeberg.org/ex-jandal/android-emu-selector"
     },
     {
       "name": "PG-chatting-app",
@@ -112,7 +118,8 @@
         "Laravel 12"
       ],
       "url": "https://github.com/ex-jandal/PG-chatting-app",
-      "wip": false
+      "wip": false,
+      "codeberg": "https://codeberg.org/ex-jandal/pg-chatting-app"
     },
     {
       "name": "doc-gen",
@@ -121,7 +128,8 @@
         "Python"
       ],
       "url": "https://github.com/ex-jandal/doc-gen",
-      "wip": false
+      "wip": false,
+      "codeberg": "https://codeberg.org/ex-jandal/doc-gen"
     },
     {
       "name": "qd-knowledge-manager",
@@ -132,7 +140,8 @@
         ".NET 10"
       ],
       "url": "https://github.com/ex-jandal/qd-knowledge-manager",
-      "wip": false
+      "wip": false,
+      "codeberg": "https://codeberg.org/ex-jandal/qd-knowledge-manager"
     }
   ],
   "links": [
@@ -140,6 +149,12 @@
       "label": "GitHub",
       "url": "https://github.com/ex-jandal",
       "icon": "github",
+      "text": "ex-jandal"
+    },
+    {
+      "label": "Codeberg",
+      "url": "https://codeberg.org/ex-jandal",
+      "icon": "codeberg",
       "text": "ex-jandal"
     },
     {

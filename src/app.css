@@ -329,3 +329,21 @@ footer.modeline bdi { color: var(--fg); }
 .skill {
 	border-color: color-mix(in srgb, var(--skill-color, var(--border)) 55%, var(--border));
 }
+
+.alt-link {
+	display: inline-flex;
+	align-items: baseline;
+	gap: 0.25rem;
+	font-size: 0.85rem;
+	color: var(--muted);
+	text-decoration: none;
+	border: var(--line) solid var(--border);
+	padding: 0 0.35rem;
+}
+.alt-link:hover {
+	color: var(--link-hover);
+	border-color: var(--link-hover);
+}
+.alt-link .nf {
+	color: var(--blue);
+}

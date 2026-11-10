@@ -7,6 +7,8 @@
                 return "\uf09b";
             case "youtube":
                 return "\uf16a";
+            case "codeberg":
+                return "\uf330";
             case "matrix":
                 return "\udb81\ude28"; /* generic chat; label carries meaning */
             case "mail":
@@ -110,6 +112,9 @@
                             <bdi>{project.name}</bdi>
                         {/if}
                     </h3>
+                    {#if project.codeberg}
+                        <a class="alt-link" href={project.codeberg} rel="noopener noreferrer" aria-label="Codeberg: {project.name}"><span class="nf" aria-hidden="true">{iconChar("codeberg")}</span> <span>Codeberg</span></a>
+                    {/if}
                     {#if project.wip}
                         <span class="wip">{$t.ui.wip}</span>
                     {/if}
