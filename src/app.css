@@ -336,9 +336,7 @@ footer.modeline bdi { color: var(--fg); }
 	gap: 0.3rem;
 	font-size: 0.95rem;
 	color: var(--link);
-	text-decoration: underline;
-	text-decoration-thickness: 1px;
-	text-underline-offset: 0.2em;
+	text-decoration: none;
 	border: var(--line) solid var(--border);
 	padding: 0.1rem 0.5rem;
 }
@@ -346,8 +344,14 @@ footer.modeline bdi { color: var(--fg); }
 	color: var(--link-hover);
 	border-color: var(--link-hover);
 }
+.alt-link span:not(.nf) {
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.2em;
+}
 .alt-link .nf {
 	color: var(--blue);
+	text-decoration: none;
 }
 
 .project-links {
