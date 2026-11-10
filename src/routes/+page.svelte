@@ -103,20 +103,17 @@
         {#each $t.projects as project}
             <article class="project">
                 <div class="project-head">
-                    <h3>
-                        {#if project.url}
-                            <a href={project.url} rel="noopener noreferrer"
-                                ><bdi>{project.name}</bdi></a
-                            >
-                        {:else}
-                            <bdi>{project.name}</bdi>
-                        {/if}
-                    </h3>
-                    {#if project.codeberg}
-                        <a class="alt-link" href={project.codeberg} rel="noopener noreferrer" aria-label="Codeberg: {project.name}"><span class="nf" aria-hidden="true">{iconChar("codeberg")}</span> <span>Codeberg</span></a>
-                    {/if}
+                    <h3><bdi>{project.name}</bdi></h3>
                     {#if project.wip}
                         <span class="wip">{$t.ui.wip}</span>
+                    {/if}
+                </div>
+                <div class="project-links">
+                    {#if project.url}
+                        <a class="alt-link" href={project.url} rel="noopener noreferrer" aria-label="GitHub: {project.name}"><span class="nf" aria-hidden="true">{iconChar("github")}</span> <span>GitHub</span></a>
+                    {/if}
+                    {#if project.codeberg}
+                        <a class="alt-link" href={project.codeberg} rel="noopener noreferrer" aria-label="Codeberg: {project.name}"><span class="nf" aria-hidden="true">{iconChar("codeberg")}</span> <span>Codeberg</span></a>
                     {/if}
                 </div>
                 <p>{project.desc}</p>
