@@ -333,12 +333,14 @@ footer.modeline bdi { color: var(--fg); }
 .alt-link {
 	display: inline-flex;
 	align-items: baseline;
-	gap: 0.25rem;
-	font-size: 0.85rem;
-	color: var(--muted);
-	text-decoration: none;
+	gap: 0.3rem;
+	font-size: 0.95rem;
+	color: var(--link);
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.2em;
 	border: var(--line) solid var(--border);
-	padding: 0 0.35rem;
+	padding: 0.1rem 0.5rem;
 }
 .alt-link:hover {
 	color: var(--link-hover);
